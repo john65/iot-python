@@ -89,7 +89,7 @@ if __name__ == "__main__":
 	configFilePath = None
 	
 	# Seconds to sleep between readings
-	interval = 60
+	interval = 1
 	
 	for o, a in opts:
 		if o in ("-v", "--verbose"):
